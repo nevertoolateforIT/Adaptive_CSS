@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+    grid-template-rows: repeat(2,100px);
+    grid-gap:1rem;
+    
+}
+
+.container> div >img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img src="assets/IMG_4080.jpeg"/></div>
+        <div><img src="assets/IMG_4151.jpeg"/></div>
+        <div><img src="assets/IMG_4359.jpeg"/></div>
+        <div><img src="assets/IMG_4375.jpeg"/></div>
+        <div><img src="assets/IMG_4540.jpeg"></div>
+        <div><img src="assets/260F7828-4693-4957-BF69-4BCFC6C9689B.jpg"></div>
+      </div>  
+</body>
+</html>
